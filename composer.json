@@ -1,0 +1,45 @@
+{
+    "name": "imshuzai/phonetic-bbcode",
+    "description": "Adding phonetic bbcode for Flarum.",
+    "type": "flarum-extension",
+    "keywords": ["discussion", "template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imshuzai",
+            "homepage": "https://potatohovel.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/imshuzai/phonetic-bbcode/issues",
+        "source": "https://github.com/imshuzai/phonetic-bbcode",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://potatohovel.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://potatohovel.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\ExtensionName\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Phonetic BBCode",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-language",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
